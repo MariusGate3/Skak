@@ -11,15 +11,13 @@ void setup() {
 
 void draw () {
 
-  Board();
+  DrawBoard();
+  
 }
-
-float feltStoerrelse = width / 8;
-
 
 
 // Her tegnes den visuelle representation af skakbrættet
-void Board() {
+void DrawBoard() {
 
   for ( int f = 0; f < 8; f++) {
 
